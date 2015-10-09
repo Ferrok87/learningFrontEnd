@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html>
+    <shadow></shadow>
+    <style></style>
 <head>
-	<meta charset='UFT-8'>
+    <meta charset="UFT-8">
 
-	<title>Ferroks Blog</title>
-	<link type='text/css' rel='stylesheet' href="main.css"/>
+    <title>Ferroks Blog</title>
+    <link type="text/css" rel="stylesheet" href="main.css"/>
 </head>
 <body>
-	<header>
-		<nav id='nav-bar'>
-			<ul>
-				<li>
-					<a href='#news' title='News'>News</a>
-				</li>
-				<li>
-					<a href='#blog' title='Ferroks Blog'>Blog</a>
-				</li>
-				<li>
-					<a href='#gallery' title='Gallery'>Gallery</a>
-				</li>
-				<li>
-					<a href='#about' title="About">About</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+<header>
+    <nav class="nav-bar">
+        <a href="#news" title="News">News</a>
+        <a href="#blog" title="Ferroks Blog">Blog</a>
+        <a href="#gallery" title="Gallery">Gallery</a>
+        <a href="#about" title="About">About</a>
+        <form id="search-bar" action="/search/" role="search" method="get">
+            <div>
+                <input type="text" name="q" value>
+                <input type="submit" id="search-bar-button" value="Search">
+            </div>
+        </form>
+    </nav>
+</header>
+    <main id="wrapper">
+        <div class="main">
+            <article class="blogposts">
+                <h1>First Blog Post</h1>
+                <div class="postcontent">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  </p>
+                </div>
+            </article>
+            <aside class="secondary">
+                <div class="facebook">
+                <p>placeholder Facebook</p>
+                </div>
+                <div class="twitter">
+                <p>placeholder Twitter</p>
+                </div>
+                <div class="myanimelist">
+                <p>placeholder myanimelist</p>
+                </div>
+                <div class="github">
+                <p>placeholder github</p>
+                </div>
+            </aside>
+        </div>
+        <aside class="footer-nav">
+            <ul id="footer-nav">
+                <li>Blog</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Impressum</li>            
+            </ul>
+        </aside>
+    </main>
+    <footer>
+    <p id="copyright">Copyright © 2015 Ferrok. All rights reserved.</p>
+    </footer>
 </body>
 </html>
