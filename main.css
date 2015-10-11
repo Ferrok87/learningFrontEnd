@@ -1,3 +1,76 @@
+header {
+    border: 1px solid black;
+    position: relative;
+    width: 1020px;
+    left: 420px;
+    right; 420px;
+}
+
 .nav-bar {
     text-transform: uppercase;
-    }
+    border: 1px solid red;
+}
+
+#main-wrapper {
+    border: 1px solid purple;
+    position: relative;
+    width: 1020px;
+    left: 420px;
+    right: 420px;
+    height: 500px;;
+}
+
+.main {
+    border: 1px solid blue;
+    width: 1020px;
+    height: 100%;
+}
+
+.blogposts {
+    border: 1px solid grey;
+    width: 80%;
+    float: left;
+}
+
+.postcontent {
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.secondary {
+    border: 1px solid green;
+    float: right;
+}
+
+.facebook {
+    border: 1px solid black;
+}
+
+.twitter {
+    border: 1px solid black;
+}
+
+.myanimelist {
+    border: 1px solid black;
+}
+
+.github {
+    border: 1px solid black;
+}
+
+.footer-nav {
+    border: 1px solid orange;
+    width: 100%;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+footer {
+    border: 1px solid black;
+    position: relative;
+    width: 1020px;
+    left: 420px;
+    right: 420px;
+}
