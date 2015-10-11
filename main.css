@@ -1,22 +1,81 @@
+h2 {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 15.4px;
+}
+
+h3 {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
 header {
     border: 1px solid black;
     position: relative;
-    width: 1020px;
-    left: 420px;
-    right; 420px;
+    width: 100%;
+    height: 200px;
+}
+
+
+.inner-header {
+
+    position: relative;
+    width: 1280px;
+    left: 320px;
+    right: 320px;
+    
+}
+
+.inner-header h1 {
+    color: black;
+	font-family: 'Open Sans';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
 }
 
 .nav-bar {
-    text-transform: uppercase;
-    border: 1px solid red;
+    padding-left: 0px;
+    font-family: 'Open Sans';
+	font-size: 15px;;
+	font-weight: 500;
+    background-color: #fafafa;
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    -webkit-box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 #dadada, 0 0 15px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 #dadada, 0 0 15px rgba(0, 0, 0, 0.07);
+    box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 #dadada, 0 0 15px rgba(0,0,0,0.07);
+}
+
+.nav-bar a {
+    margin: 0px 20px 0px 20px;
 }
 
 #main-wrapper {
     border: 1px solid purple;
     position: relative;
-    width: 1020px;
-    left: 420px;
-    right: 420px;
+    width: 1280px;
+    left: 320px;
+    right: 320px;
     height: 500px;;
 }
 
@@ -61,6 +120,9 @@ header {
 .footer-nav {
     border: 1px solid orange;
     width: 100%;
+    font-family: 'Open Sans';
+	font-size: 15px;;
+	font-weight: 500;
 }
 
 .footer-nav li {
@@ -69,8 +131,4 @@ header {
 
 footer {
     border: 1px solid black;
-    position: relative;
-    width: 1020px;
-    left: 420px;
-    right: 420px;
 }
