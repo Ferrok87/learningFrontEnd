@@ -26,19 +26,20 @@ p {
 }
 
 header {
-    border: 1px solid black;
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 400px;
+    background-image: url(logos/background-color.png);
+    margin-top: 0px;
 }
 
 
 .inner-header {
-
     position: relative;
     width: 1280px;
     left: 320px;
     right: 320px;
+    top: 320px;
     
 }
 
@@ -71,54 +72,46 @@ header {
 }
 
 #main-wrapper {
-    border: 1px solid purple;
+    border: 1px solid black;
     position: relative;
     width: 1280px;
     left: 320px;
     right: 320px;
-    height: 500px;;
+    height: 900px;
 }
 
 .main {
-    border: 1px solid blue;
-    width: 1020px;
+    width: 1280px;
     height: 100%;
 }
 
 .blogposts {
-    border: 1px solid grey;
-    width: 80%;
+    width: 75%;
     float: left;
 }
 
 .postcontent {
-    border: 1px solid grey;
     width: 100%;
 }
 
 .secondary {
-    border: 1px solid green;
     float: right;
+    width: 22%;
 }
 
 .facebook {
-    border: 1px solid black;
 }
 
 .twitter {
-    border: 1px solid black;
 }
 
 .myanimelist {
-    border: 1px solid black;
 }
 
 .github {
-    border: 1px solid black;
 }
 
 .footer-nav {
-    border: 1px solid orange;
     width: 100%;
     font-family: 'Open Sans';
 	font-size: 15px;;
