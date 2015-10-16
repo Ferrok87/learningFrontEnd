@@ -10,12 +10,13 @@
 <body>
 <header>
     <div class="inner-header">
-    <!-- <h1>Ferroks Webpage</h1> -->
+    <h1>Ferroks Webpage</h1>
     <nav class="nav-bar">
         <a href="#news" title="News">News</a>
         <a href="#blog" title="Ferroks Blog">Blog</a>
         <a href="#gallery" title="Gallery">Gallery</a>
-        <a href="#about" title="About">About</a>
+        <a class="nav-bar-right" href="#about" title="About">About</a>
+        <a class="nav-bar-right" href="#login" title="Login">Login</a>
        <!-- <form id="search-bar" action="/search/" role="search" method="get">
             <div>
                 <input type="text" name="q" value>
@@ -25,10 +26,15 @@
     </nav>
     </div>
 </header>
-    <main id="main-wrapper">
-        <div class="main">
+        <main class="main-content">
             <article class="blogposts">
                 <h2>First Blog Post</h2>
+                <div class="postcontent">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  </p>
+                </div>
+            </article>
+            <article class="blogposts">
+                <h2>Second Blog Post</h2>
                 <div class="postcontent">
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  </p>
                 </div>
@@ -49,18 +55,19 @@
                 <p>Check out my GitHub page to see how I build this page.</p>
                 </div>
             </aside>
-        </div>
-        <aside class="footer-nav">
-            <ul>
-                <li>Blog</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Impressum</li>            
-            </ul>
-        </aside>
-    </main>
-    <footer>
-    <p id="copyright">Copyright © 2015 Ferrok. All rights reserved.</p>
+            <aside class="subfooter">
+                <div id="footer-nav" class="clearfix">
+                    <ul>
+                        <li>Blog</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Impressum</li>            
+                    </ul>
+                </div>
+            </aside>
+        </main>
+    <footer role="copyright">
+            <p>Copyright © 2015 Ferrok. All rights reserved.</p>
     </footer>
 </body>
 </html>
