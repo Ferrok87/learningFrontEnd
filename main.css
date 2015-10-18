@@ -40,23 +40,45 @@ p {
 
 header {
     margin: 0 auto;
-    padding-top: 16px;
-    position: relative;
+    max-width: 1920px;
+    
+    /* 1920x380 */
+    height: 380px; 
     width: 100%;
-    height: 380px;
-    background-image: url(logos/background-color.png);
+    background-image: url(logos/headerbackground/overlordalbedo.png);
     background-repeat: no-repeat;
+    
+    /* 1280x380 */
+    /*
+    height: 380px;
+    width: 1280px;
+    background-image: url(logos/1280header.png);
+    background-repeat: no-repeat;   
+    */
+    
+    
+    /* grey 1280x280 */
+    /*  
+    height: 250px;
+    width: 1280px;
+    background-color: #333333
+    */
 }
 
 
 .inner-header {
+    height: 150px;
     position: relative;
     max-width: 1280px;
     margin: 0 auto;
-    top: 79.6%;
+    /* grey header background 280px */
+    /* top: 144px; */
+    /* pic header 380px */
+    top: 274px;
 }
 
 .inner-header h1 {
+    padding: 10px;
     color: white;
     height: auto;
     width: auto;
@@ -71,7 +93,7 @@ header {
 .nav-bar {
     background: linear-gradient(to bottom, #404040 0%, #333333 100%);
     font-weight: 600;
-    height: 52px;
+    height: 60px;
     width: 1280px;
 }
 
@@ -80,7 +102,7 @@ header {
     color: #fafafa;
     display: inline-block;
     font-size: 15px;
-    line-height: 52px;
+    line-height: 60px;
     padding: 0 28px;
     text-decoration: none;
     width: 50px;
@@ -99,15 +121,14 @@ header {
 .main-content {
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     width: 1280px;
-    height: 100%;
+    height: 1300px;
     margin: 0 auto;
     background-color: #fff;
 }
 
 .blogposts {
-    max-width: 75%;
     float: left;
-    margin: 0 auto;
+    width: 75%;
     padding: 10px 0 10px 10px;
 }
 
@@ -121,55 +142,58 @@ header {
     padding-bottom: 10px;
 }
 
-.secondary {
+.secondary { 
     float: right;
     width: 22%;
     height: 100%;
     border-left: 1px solid #e0e0e0;
-    padding: 0 0 0 10px;
-    margin: 0 0 0 10px;
 }
 
-.facebook {
-    
+.secondary div {
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
-.twitter {
-    
+.twitter {}
+
+.myanimelist p {
+     font-size: 12px;
 }
 
-.myanimelist {
-    
-}
-
-.github {
-    
+.github p {
+    font-size: 12px;
 }
 
 .subfooter {
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     clear: both;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     background: linear-gradient(to bottom, #404040 0%, #333333 100%);
     margin: 0 auto;
 }
 
 #footer-nav {
     width: 1280px;
-    height: 52px;
+    height: 60px;
     font-family: 'Open Sans';
 	font-size: 15px;
 	font-weight: 500;
 }
 
+#footer-nav ul {
+    padding-left: 50px;
+}
+
 #footer-nav li {
     display: inline;
-    background: linear-gradient(to bottom, #404040 0%, #333333 100%);
     color: #fafafa;
     display: inline-block;
     font-size: 12px;
     font-weight: 600;
-    line-height: 52px;
+    line-height: 60px;
     text-decoration: none;
+    text-align: center;
+    padding-right: 25px;
+    text-shadow: 0 1px 1px #000;
 }
 
 footer[role="copyright"] {
@@ -177,7 +201,7 @@ footer[role="copyright"] {
     height: 20px;
     position: relative;
     width: 1280px;
-    padding: 30px 0 40px 0;
+    padding: 70px 0 40px 0;
 }
 
 footer p {
